@@ -9,6 +9,7 @@ public class Metodos {
         String agregar = "";
         while (continuar) {
             Tienda o = new Tienda();
+            JOptionPane.showInputDialog("\n** Seleccione la opcion **\n1. Ingresar repuesto\n2. Buscar Repuesto\n3. Modificar repuesto\n4. Eliminar repuesto\n5 Vender repuesto");
             o.setMarca(JOptionPane.showInputDialog("Ingrese la marca"));
             o.setReferencia(JOptionPane.showInputDialog("Ingrese la referencia"));
             o.setCantidad(JOptionPane.showInputDialog("Ingrese la cantidad"));
